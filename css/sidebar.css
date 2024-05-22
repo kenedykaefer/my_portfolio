@@ -1,0 +1,49 @@
+.sidebar {
+    height: 100vh;
+    padding: var(--spacing-medium);
+
+    background-color: var(--color-dark);
+
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-svg{
+    height: var(--logo-size);
+    width: var(--logo-size);
+}
+
+.sidebar-phrase {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+}
+
+.social-media a {
+    height: var(--icon-size);
+    width: var(--icon-size);
+}
+
+.icon-social-media {
+    height: var(--icon-size);
+    width: var(--icon-size);
+    transition: transform 0.3s ease;
+}
+
+.icon-social-media:hover {
+    transform: scale(1.5);
+}
